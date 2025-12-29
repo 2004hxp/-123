@@ -429,7 +429,8 @@ body {
 
 /* === 主内容区 === */
 .content {
-  flex: 1;
+  flex: 1 1 0;
+  min-width: 0;
   background: var(--bg-secondary);
   border-radius: var(--radius-lg);
   padding: 30px;
@@ -445,6 +446,7 @@ body {
 
 /* === 题目容器 === */
 .question-container {
+  width: 100%;
   padding: 10px 0;
   animation: fadeIn var(--transition-slow);
 }

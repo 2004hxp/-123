@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Embedded git repositories
+quiz-app/
+
+# Claude local settings
+.claude/settings.local.json
+
+# Serena project cache
+.serena/cache/

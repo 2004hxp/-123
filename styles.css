@@ -852,6 +852,7 @@ body {
   }
 
   .main-layout {
+    width: 100%;
     flex-direction: column;
   }
 
@@ -860,6 +861,8 @@ body {
   }
 
   .content {
+    width: 100%;
+    flex: 1 1 auto;
     padding: 20px 16px;
     border-radius: var(--radius-md);
     min-height: auto;
